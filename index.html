@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Pet&Style - Loja para Pets</title>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- Cabeçalho -->
+    <header
+        class="flex flex-col items-center justify-between gap-4 bg-orange-100 px-6 py-4 md:flex-row md:px-12">
+
+        <h1 class="text-2xl font-bold text-orange-600">
+            🐾 Pet&Style
+        </h1>
+
+        <nav>
+            <ul class="flex flex-wrap justify-center gap-4 font-medium">
+                <li>
+                    <a href="#home" class="hover:text-orange-600">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#produtos" class="hover:text-orange-600">
+                        Produtos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#depoimentos" class="hover:text-orange-600">
+                        Depoimentos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contato" class="hover:text-orange-600">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section
+            id="home"
+            class="flex flex-col items-center gap-8 px-6 py-12 md:flex-row md:px-12 lg:px-24">
+
+            <img
+                src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg"
+                alt="Dois cachorros em um ambiente ao ar livre"
+                class="h-72 w-full rounded-2xl object-cover shadow-lg md:w-1/2 lg:h-96">
+
+            <div class="md:w-1/2">
+                <p class="mb-2 font-semibold uppercase tracking-wide text-orange-600">
+                    Produtos especiais para pets
+                </p>
+
+                <h2 class="mb-4 text-3xl font-bold md:text-5xl">
+                    Estilo e conforto para o seu melhor amigo
+                </h2>
+
+                <p class="mb-6 text-lg text-gray-600">
+                    Encontre caminhas, brinquedos e acessórios que unem qualidade,
+                    conforto e personalidade para cães e gatos.
+                </p>
+
+                <a
+                    href="#produtos"
+                    class="inline-block rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600">
+                    Conheça nossos produtos
+                </a>
+            </div>
+
+        </section>
+
+        <!-- Produtos -->
+        <section id="produtos" class="bg-gray-100 px-6 py-12 md:px-12 lg:px-24">
+
+            <div class="mb-8 text-center">
+                <h2 class="mb-2 text-3xl font-bold">
+                    Nossos produtos
+                </h2>
+
+                <p class="text-gray-600">
+                    Produtos selecionados para deixar a rotina do seu pet mais confortável e divertida.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+                <!-- Produto 1 -->
+                <article class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1">
+
+                    <img
+                        src="https://images.pexels.com/photos/7210748/pexels-photo-7210748.jpeg"
+                        alt="Cachorro descansando em uma cama"
+                        class="h-52 w-full object-cover">
+
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Caminha Conforto
+                        </h3>
+
+                        <p class="mb-4 text-gray-600">
+                            Caminha macia e aconchegante para seu pet descansar com conforto.
+                        </p>
+
+                        <p class="text-lg font-bold text-orange-600">
+                            R$ 129,90
+                        </p>
+                    </div>
+
+                </article>
+
+                <!-- Produto 2 -->
+                <article class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1">
+
+                    <img
+                        src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg"
+                        alt="Cachorro brincando"
+                        class="h-52 w-full object-cover">
+
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Brinquedo Mordedor
+                        </h3>
+
+                        <p class="mb-4 text-gray-600">
+                            Brinquedo resistente para diversão, estímulo e redução do estresse.
+                        </p>
+
+                        <p class="text-lg font-bold text-orange-600">
+                            R$ 39,90
+                        </p>
+                    </div>
+
+                </article>
+
+                <!-- Produto 3 -->
+                <article class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1">
+
+                    <img
+                        src="https://images.pexels.com/photos/3361739/pexels-photo-3361739.jpeg"
+                        alt="Cachorro usando uma coleira"
+                        class="h-52 w-full object-cover">
+
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Coleira Elegante
+                        </h3>
+
+                        <p class="mb-4 text-gray-600">
+                            Coleira confortável, segura e estilosa para os passeios diários.
+                        </p>
+
+                        <p class="text-lg font-bold text-orange-600">
+                            R$ 59,90
+                        </p>
+                    </div>
+
+                </article>
+
+                <!-- Produto 4 -->
+                <article class="overflow-hidden rounded-xl bg-white shadow-md transition hover:-translate-y-1">
+
+                    <img
+                        src="https://images.pexels.com/photos/4587998/pexels-photo-4587998.jpeg"
+                        alt="Gato próximo a um recipiente"
+                        class="h-52 w-full object-cover">
+
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Comedouro Moderno
+                        </h3>
+
+                        <p class="mb-4 text-gray-600">
+                            Comedouro prático com design moderno para cães e gatos.
+                        </p>
+
+                        <p class="text-lg font-bold text-orange-600">
+                            R$ 79,90
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Depoimentos -->
+        <section id="depoimentos" class="px-6 py-12 md:px-12 lg:px-24">
+
+            <div class="mb-8 text-center">
+                <h2 class="mb-2 text-3xl font-bold">
+                    O que nossos clientes dizem
+                </h2>
+
+                <p class="text-gray-600">
+                    Experiências de quem escolheu a Pet&Style.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+
+                <article class="rounded-xl border border-gray-200 p-6 shadow-sm">
+                    <p class="mb-4 text-gray-600">
+                        “A caminha chegou rapidamente e meu cachorro adorou. O material é muito confortável.”
+                    </p>
+
+                    <p class="font-bold text-orange-600">
+                        Mariana, tutora do Thor
+                    </p>
+                </article>
+
+                <article class="rounded-xl border border-gray-200 p-6 shadow-sm">
+                    <p class="mb-4 text-gray-600">
+                        “A coleira é bonita, resistente e ficou perfeita na minha cachorrinha.”
+                    </p>
+
+                    <p class="font-bold text-orange-600">
+                        Lucas, tutor da Mel
+                    </p>
+                </article>
+
+                <article class="rounded-xl border border-gray-200 p-6 shadow-sm">
+                    <p class="mb-4 text-gray-600">
+                        “Gostei muito da qualidade dos produtos e do atendimento da loja.”
+                    </p>
+
+                    <p class="font-bold text-orange-600">
+                        Fernanda, tutora do Simba
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="bg-orange-50 px-6 py-12 md:px-12 lg:px-24">
+
+            <div class="flex flex-col gap-10 md:flex-row">
+
+                <div class="md:w-1/2">
+                    <h2 class="mb-4 text-3xl font-bold">
+                        Entre em contato
+                    </h2>
+
+                    <p class="mb-6 text-gray-600">
+                        Envie sua mensagem para tirar dúvidas, pedir informações ou conhecer melhor nossos produtos.
+                    </p>
+
+                    <p class="mb-2">
+                        <strong>E-mail:</strong> contato@petstyle.com.br
+                    </p>
+
+                    <p>
+                        <strong>Telefone:</strong> (11) 99999-9999
+                    </p>
+                </div>
+
+                <form class="space-y-4 rounded-xl bg-white p-6 shadow-md md:w-1/2">
+
+                    <div>
+                        <label for="nome" class="mb-1 block font-medium">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            required
+                            placeholder="Digite seu nome"
+                            class="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-orange-500">
+                    </div>
+
+                    <div>
+                        <label for="email" class="mb-1 block font-medium">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            placeholder="Digite seu e-mail"
+                            class="w-full rounded-lg border border-gray-300 p-3 outline-none focus:border-orange-500">
+                    </div>
+
+                    <div>
+                        <label for="mensagem" class="mb-1 block font-medium">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="5"
+                            required
+                            placeholder="Digite sua mensagem"
+                            class="w-full resize-none rounded-lg border border-gray-300 p-3 outline-none focus:border-orange-500"></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="w-full rounded-lg bg-orange-500 px-6 py-3 font-semibold text-white transition hover:bg-orange-600">
+                        Enviar mensagem
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 px-6 py-6 text-center text-white">
+        <p>
+            &copy; 2026 Pet&Style. Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+
+</html>
